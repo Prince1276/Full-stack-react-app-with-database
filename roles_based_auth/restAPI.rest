@@ -1,0 +1,26 @@
+# 1) dashboard Router 
+# http://localhost:3500/dashboard
+# Content-Type: application/json
+
+# {
+#     "userId":2
+# }
+
+# 2) General router - Get all projects list
+# http://localhost:3500/projects
+
+# 3) Admin Router 
+# http://localhost:3500/admin
+# Content-Type: application/json
+
+# {
+#     "userId":1
+# }
+
+# 4) General router - Get perticular project details
+GET http://localhost:3500/projects/1
+Content-Type: application/json
+
+{
+    "userId":1
+}
